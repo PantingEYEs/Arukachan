@@ -11,7 +11,7 @@ Step 3. Use "source venv/bin/activate" to activate the virtual environment.
 
 Step 4. Use "pip install -r requirements.txt" to install required libraries.
 
-Step 5. Use "python3 Arukachan.py" to run Arukachan script.
+Step 5. Use "python3 Arukachan_v1.0.py" to run Arukachan script.
 
 Step 6. Use "deactivate" to deactivate the virtual environment.
 
