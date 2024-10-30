@@ -21,7 +21,7 @@ def main():
     # Step 3: Install required libraries
     print("Installing required libraries...")
     run_command("venv/bin/pip install -r requirements.txt")
-    run_command("huggingface-cli download TheBloke/Llama-2-7b-Chat-GGUF llama-2-7b-chat.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False")
+    run_command("venv/bin/huggingface-cli download TheBloke/Llama-2-7b-Chat-GGUF llama-2-7b-chat.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False")
 
     # Step 4: Import LLM
     #print("Importing the LLM...")
