@@ -5,14 +5,12 @@ To use this project. You need to:
 
 Step 1. Navigate to Arukachan directory in Terminal.
 
-Step 2. Use "python3 -m venv venv" to create a virtual environment.
+Step 2. Use "python3 setup.py" then it gonna be:
+    First. Use "python3 -m venv venv" to create a virtual environment. And "source venv/bin/activate" to activate the virtual environment;
+    Second. Use "pip install -r requirements.txt" to install required libraries;
+    Third. Use "huggingface-cli download TheBloke/Llama-2-7b-Chat-GGUF llama-2-7b-chat.Q4_K_M.gguf --local-dir . --local-dir-use-symlinks False" to download the LLM model;
+    Fourth. Use "python3 Arukachan_v1.0.py" to run Arukachan script;
 
-Step 3. Use "source venv/bin/activate" to activate the virtual environment.
-
-Step 4. Use "pip install -r requirements.txt" to install required libraries.
-
-Step 5. Use "python3 Arukachan_v1.0.py" to run Arukachan script.
-
-Step 6. Use "deactivate" to deactivate the virtual environment.
+Step 3. Use "deactivate" to deactivate the virtual environment.
 
 Tips: When you add some new required libraries in your project. You should use "pip freeze > requirements.txt" to save your changes in virtual environment.
